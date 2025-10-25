@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		ED3D50802EA539410020AF3B /* Exceptions for "LiveMatch" folder in "LiveMatch" target */ = {
+		ED3D520B2EAC9A960020AF3B /* Exceptions for "LiveMatch" folder in "LiveMatch" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		ED3D505A2EA5393F0020AF3B /* LiveMatch */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				ED3D50802EA539410020AF3B /* Exceptions for "LiveMatch" folder in "LiveMatch" target */,
-			);
-			path = LiveMatch;
-			sourceTree = "<group>";
-		};
 		ED3D50712EA539410020AF3B /* LiveMatchTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LiveMatchTests;
@@ -56,6 +48,14 @@
 		ED3D507B2EA539410020AF3B /* LiveMatchUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LiveMatchUITests;
+			sourceTree = "<group>";
+		};
+		ED3D51FA2EAC9A960020AF3B /* LiveMatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ED3D520B2EAC9A960020AF3B /* Exceptions for "LiveMatch" folder in "LiveMatch" target */,
+			);
+			path = LiveMatch;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		ED3D504F2EA5393F0020AF3B = {
 			isa = PBXGroup;
 			children = (
-				ED3D505A2EA5393F0020AF3B /* LiveMatch */,
+				ED3D51FA2EAC9A960020AF3B /* LiveMatch */,
 				ED3D50712EA539410020AF3B /* LiveMatchTests */,
 				ED3D507B2EA539410020AF3B /* LiveMatchUITests */,
 				ED3D50592EA5393F0020AF3B /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				ED3D505A2EA5393F0020AF3B /* LiveMatch */,
+				ED3D51FA2EAC9A960020AF3B /* LiveMatch */,
 			);
 			name = LiveMatch;
 			packageProductDependencies = (
