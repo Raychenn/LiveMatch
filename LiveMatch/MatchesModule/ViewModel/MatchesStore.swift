@@ -156,13 +156,6 @@ actor MatchesStore: MatchesStoreProtocol {
         return result.sorted { $0.match.startTime > $1.match.startTime }
     }
     
-    func getMatchWithOdds(for id: Int) async -> MatchWithOdds? {
-        guard let match = matches[id], let matchOdds = odds[id] else {
-            return nil
-        }
-        return MatchWithOdds(match: match, odds: matchOdds)
-    }
-    
     // MARK: - Metrics
     
     func recordUIUpdate() async {
